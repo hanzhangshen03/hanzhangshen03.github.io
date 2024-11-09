@@ -4,7 +4,7 @@
     "image": "",
     "email": "shenhanzhang [at] outlook [dot] com",
     "url": "https://hanzhangshen03.github.io",
-    "summary": "CS undergraduate student at the University of Cambridge",
+    "summary": "Undergraduate Computer Science student at the University of Cambridge.",
     "location": {
       "address": "Robinson College, Grange Rd",
       "postalCode": "CB3 9AN",
@@ -16,12 +16,31 @@
     {
       "institution": "University of Cambridge",
       "location": "Cambridge, UK",
-      "url": "https://www.cam.ac.uk/",
+      "url": "https://www.cst.cam.ac.uk",
       "area": "Computer Science",
-      "studyType": "Bachelor of Arts",
+      "studyType": "Bachelor's Degree",
       "startDate": "2023-10",
-      "endDate": "2026-06",
-      "courses": []
+      "endDate": "Present",
+      "scores": "Part IA: Class I",
+      "rank": "7th / 121"
+    }
+  ],
+  "work": [
+    {
+      "name": "ENCODE Lab, Westlake University",
+      "location": "Hangzhou, China",
+      "position": "Visiting Student",
+      "startDate": "2024-06",
+      "endDate": "Present",
+      "summary": "Supervised by Prof. Huan Wang."
+    },
+    {
+      "name": "Shanghai Jiao Tong University",
+      "location": "Shanghai, China",
+      "position": "Visiting Student",
+      "startDate": "2024-06",
+      "endDate": "Present",
+      "summary": "Supervised by Prof. Yulun Zhang."
     }
   ]
 }
