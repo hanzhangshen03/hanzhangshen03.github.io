@@ -1,9 +1,11 @@
 # Hanzhang's Personal Website
 
 ## Welcome
+
 Welcome to visit my [personal website](https://hanzhangshen03.github.io/).
 
 ## License
+
 The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/master/LICENSE).
 
 This website was built upon [al-folio](https://github.com/alshedivat/al-folio) template. Many thanks to its developers.
