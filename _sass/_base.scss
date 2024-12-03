@@ -1294,3 +1294,15 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+@font-face {
+  font-family: 'Fangsong GB2312';
+  src: url('/assets/fonts/Fangsong_GB2312.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.chinese-name {
+  font-family: 'Fangsong GB2312', sans-serif;
+  margin-left: 1rem;
+}
