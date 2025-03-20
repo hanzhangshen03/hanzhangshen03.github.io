@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-06-23 08:00:00 UTC
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I joined ENCODE Lab at [Westlake University](https://en.westlake.edu.cn) today as a visiting student, advised by [Huan](https://huanwang.tech/)!
