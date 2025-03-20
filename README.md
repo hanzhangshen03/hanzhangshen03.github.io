@@ -1,6 +1,6 @@
 # Hanzhang's Personal Website
 
-## Welcome
+## Welcome 👋
 
 Welcome to visit my [personal website](https://hanzhangshen03.github.io/).
 
