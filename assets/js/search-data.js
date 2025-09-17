@@ -25,8 +25,8 @@ ninja.data = [{
           section: "News",},{id: "news-elected-as-a-junior-scholar-of-robinson-college-university-of-cambridge",
           title: 'Elected as a Junior Scholar of Robinson College, University of Cambridge.',
           description: "",
-          section: "News",},{id: "news-i-am-joining-similarity-detection-ai-team-at-meta-london-today-as-a-software-engineer-intern",
-          title: 'I am joining Similarity Detection AI team at Meta London today as a...',
+          section: "News",},{id: "news-i-am-joining-solutions-ai-team-at-meta-london-today-as-a-software-engineer-intern",
+          title: 'I am joining Solutions AI team at Meta London today as a software...',
           description: "",
           section: "News",},{
         id: 'social-email',
