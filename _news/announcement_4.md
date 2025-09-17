@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am joining Similarity Detection AI team at Meta London today as a software engineer intern!
+I am joining Solutions AI team at Meta London today as a software engineer intern!
