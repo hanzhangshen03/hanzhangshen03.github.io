@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-i-joined-encode-lab-at-westlake-university-today-as-a-visiting-student-advised-by-huan",
+        },{id: "post-a-post-with-plotly-js",
+        
+          title: "a post with plotly.js",
+        
+        description: "this is what included plotly.js code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/plotly/";
+          
+        },
+      },{id: "news-i-joined-encode-lab-at-westlake-university-today-as-a-visiting-student-advised-by-huan",
           title: 'I joined ENCODE Lab at Westlake University today as a visiting student, advised...',
           description: "",
           section: "News",},{id: "news-awarded-the-adrian-knight-prize-in-computer-science-by-robinson-college-university-of-cambridge",
