@@ -1424,14 +1424,7 @@ figure.cover {
   }
 }
 
-@font-face {
-  font-family: "fangsong gb2312";
-  src: url("/assets/fonts/fangsong_gb2312.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .chinese-name {
-  font-family: "fangsong gb2312", sans-serif;
+  font-family: sans-serif;
   margin-left: 1rem;
 }
