@@ -21,7 +21,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/assets/pdf/hanzhang_shen_cv.pdf";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -46,8 +46,8 @@ ninja.data = [{
           section: "News",},{id: "news-i-am-joining-solutions-ai-team-at-meta-london-today-as-a-software-engineer-intern",
           title: 'I am joining Solutions AI team at Meta London today as a software...',
           description: "",
-          section: "News",},{id: "news-awarded-the-g-research-undergraduate-prize-by-g-research",
-          title: 'Awarded the G-Research Undergraduate Prize by G-Research.',
+          section: "News",},{id: "news-awarded-the-g-research-undergraduate-prize",
+          title: 'Awarded the G-Research Undergraduate Prize.',
           description: "",
           section: "News",},{id: "news-awarded-the-adrian-knight-prize-in-computer-science-by-robinson-college-university-of-cambridge",
           title: 'Awarded the Adrian Knight Prize in Computer Science by Robinson College, University of...',
