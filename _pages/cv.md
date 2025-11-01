@@ -1,10 +1,10 @@
 ---
 layout: cv
-permalink: /cv/
+permalink: assets/pdf/hanzhang_shen_cv.pdf
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: # you can also use external links here
+cv_pdf:
 description:
 toc:
   sidebar:

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Awarded the G-Research Undergraduate Prize by [G-Research](https://www.gresearch.com).
+Awarded the [G-Research](https://www.gresearch.com) Undergraduate Prize.
