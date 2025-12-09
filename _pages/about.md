@@ -26,4 +26,4 @@ latest_posts:
 
 Welcome to my webpage! I am an undergraduate student at the [University of Cambridge](https://www.cam.ac.uk), majoring in Computer Science. Previously, I spent 4 good years studying at Dunman High School, Singapore.
 
-I am currently doing research on Efficient AI and Computer Vision, supervised by [Prof. Huan Wang](https://huanwang.tech/) at [ENCODE Lab](https://encode-lab-ai.github.io), Westlake University, and [Prof. Yulun Zhang](https://yulunzhang.com/) at AI Institute, Shanghai Jiao Tong University.
+I am currently doing research on Efficient AI and Computer Vision, supervised by [Prof. Huan Wang](https://huanwang.tech/) at [ENCODE Lab](https://westlake-encode-lab.github.io), Westlake University, and [Prof. Yulun Zhang](https://yulunzhang.com/) at AI Institute, Shanghai Jiao Tong University.
