@@ -24,6 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome to my webpage! I am an undergraduate student at the [University of Cambridge](https://www.cam.ac.uk), majoring in Computer Science.
+Welcome to my webpage! I am a first-year M.S. student in Computer Science at UIUC, advised by [Prof. Fan Lai](https://fanlai.me), with a focus on machine learning systems.
 
-I am currently doing research supervised by [Prof. Robert Mullins](https://www.cl.cam.ac.uk/~rdm34/) at the University of Cambridge. Previously, I did research on Efficient AI and Computer Vision, supervised by [Prof. Huan Wang](https://huanwang.tech/) at [ENCODE Lab](https://westlake-encode-lab.github.io), Westlake University, and [Prof. Yulun Zhang](https://yulunzhang.com/) at Shanghai Jiao Tong University.
+I received my undergraduate degree in Computer Science from University of Cambridge, where I was supervised by [Prof. Robert Mullins](https://www.cl.cam.ac.uk/~rdm34/). Before that, I worked on Efficient AI and Computer Vision with [Prof. Huan Wang](https://huanwang.tech/) and [Prof. Yulun Zhang](https://yulunzhang.com/).
