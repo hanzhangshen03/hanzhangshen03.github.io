@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
@@ -51,6 +58,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-awarded-the-adrian-knight-prize-in-computer-science-by-robinson-college-university-of-cambridge",
           title: 'Awarded the Adrian Knight Prize in Computer Science by Robinson College, University of...',
+          description: "",
+          section: "News",},{id: "news-i-graduated-from-cambridge-with-a-bachelor-s-degree-in-computer-science",
+          title: 'I graduated from Cambridge with a bachelor’s degree in Computer Science.',
+          description: "",
+          section: "News",},{id: "news-i-m-starting-my-m-s-in-computer-science-at-uiuc-advised-by-prof-fan-lai",
+          title: 'I’m starting my M.S. in Computer Science at UIUC, advised by Prof. Fan...',
           description: "",
           section: "News",},{
         id: 'social-email',
