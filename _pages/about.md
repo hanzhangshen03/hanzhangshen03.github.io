@@ -24,6 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome to my webpage! I am a first-year M.S. student in Computer Science at the University of Illinois Urbana-Champaign, advised by [Prof. Fan Lai](https://fanlai.me), with a focus on machine learning systems.
+I am Hanzhang Shen (沈含章), a first-year M.S. student in Computer Science at the University of Illinois Urbana-Champaign, advised by [Prof. Fan Lai](https://fanlai.me), with a focus on machine learning systems.
 
 I received my undergraduate degree in Computer Science from University of Cambridge, where I was supervised by [Prof. Robert Mullins](https://www.cl.cam.ac.uk/~rdm34/). As an undergraduate, I also worked on Efficient AI and Computer Vision with [Prof. Huan Wang](https://huanwang.tech/) and [Prof. Yulun Zhang](https://yulunzhang.com/).
