@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "*Corresponding Author",
+          description: "* Equal contribution; † Corresponding author.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -64,6 +64,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-m-starting-my-m-s-in-computer-science-at-uiuc-advised-by-prof-fan-lai",
           title: 'I’m starting my M.S. in Computer Science at UIUC, advised by Prof. Fan...',
+          description: "",
+          section: "News",},{id: "news-our-paper-triaxialkv-has-been-accepted-to-neurips-2026",
+          title: 'Our paper TriAxialKV has been accepted to NeurIPS 2026!',
           description: "",
           section: "News",},{
         id: 'social-email',
