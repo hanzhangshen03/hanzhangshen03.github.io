@@ -11,3 +11,7 @@
 "arXiv":
   url: https://arxiv.org
   color: "#1f5e96"
+
+"NeurIPS":
+  url: https://neurips.cc
+  color: "#7c3fa0"
