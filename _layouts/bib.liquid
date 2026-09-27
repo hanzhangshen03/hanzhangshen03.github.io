@@ -61,7 +61,31 @@
       {%- for author in entry.author_array limit: author_array_limit -%}
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
-        {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        <!-- Marks are rendered outside the name's <em>/<a> so they aren't underlined -->
+        {%- assign author_marks = author.last | regex_replace: '[^*∗†‡§¶‖&^]', '' -%}
+        <!-- Per-author annotations, e.g. author_an = {1=equal; 2=equal; 4=corresponding} -->
+        {%- if entry.author_an -%}
+          {%- assign author_idx = forloop.index -%}
+          {%- assign author_roles = '' -%}
+          {%- assign an_items = entry.author_an | split: ';' -%}
+          {%- for an_item in an_items -%}
+            {%- assign an_parts = an_item | split: '=' -%}
+            {%- assign an_idx = an_parts[0] | strip | plus: 0 -%}
+            {%- if an_idx == author_idx -%}
+              {%- assign author_roles = an_parts[1] | strip -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%- if author_roles contains 'equal' -%}
+            {%- assign author_marks = author_marks | append: '*' -%}
+          {%- endif -%}
+          {%- if author_roles contains 'corresponding' -%}
+            {%- assign author_marks = author_marks | append: '&dagger;' -%}
+          {%- endif -%}
+        {%- endif -%}
+        {%- assign author_marks_html = '' -%}
+        {%- if author_marks != '' -%}
+          {%- assign author_marks_html = '<sup>' | append: author_marks | append: '</sup>' -%}
+        {%- endif -%}
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
@@ -87,17 +111,20 @@
         {%- if author_is_self -%}
           <em>
             {{- author.first }}
-            {{ author_last_html -}}
+            {{ author_last_name -}}
           </em>
+          {{- author_marks_html -}}
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
               {{- author.first }}
-              {{ author_last_html -}}
+              {{ author_last_name -}}
             </a>
+            {{- author_marks_html -}}
           {%- else -%}
             {{- author.first }}
-            {{ author_last_html -}}
+            {{ author_last_name -}}
+            {{- author_marks_html -}}
           {% endif %}
         {%- endif -%}
       {% endfor %}

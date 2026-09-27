@@ -303,6 +303,7 @@ filtered_bibtex_keywords:
     abbr,
     abstract,
     additional_info,
+    author_an,
     altmetric,
     annotation,
     arxiv,
